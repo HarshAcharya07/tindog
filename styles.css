@@ -1,0 +1,166 @@
+body {
+  font-family: "montserrat";
+}
+#title {
+  /* background-color: #ff4c68; */
+  background: rgb(233,70,123);
+background: linear-gradient(90deg, rgba(233,70,123,1) 0%, rgba(252,176,69,1) 50%, rgba(237,117,100,1) 100%);
+  color: #fff;
+}
+.btns {
+  font-family: "Ubuntu", sans-serif;
+}
+.container-fluid {
+  padding: 0% 12%;
+}
+#iphone {
+  transform: rotate(25deg);
+  width: 50%;
+  
+
+
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 3.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "montserrat-Light";
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.h1,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  size: 3.5rem;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+.mid-icon {
+  /* color: #ef8172; */
+  color: rgb(240, 120, 41);
+/* background: radial-gradient(circle, rgba(242,142,75,1) 0%, rgba(242,75,75,1) 100%); */
+}
+.mid-icon:hover {
+  color: #ff4c68;
+}
+.mid-para {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8f8f8f;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 3rem;
+}
+#testimonials {
+  text-align: center;
+  /* background-color: #f35d49; */
+  /* background-image: linear-gradient(-90deg,#ff4c68,#ef8172); */
+
+  /* background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+background: rgb(233,70,123);
+background: linear-gradient(90deg, rgba(233,70,123,1) 0%, rgba(252,176,69,1) 50%, rgba(237,117,100,1) 100%);
+
+  line-height: 2.5;
+  padding: 7% 15%;
+}
+.round_dog {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+#press {
+  /* background-color: #ef8172; */
+  /* background-color: #4158D0; */
+/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+  padding-bottom: 2%;
+  
+  text-align: center;
+}
+.press_logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3% 20%;
+  line-height: 2;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  /* position: relative; */
+}
+
+#cta {
+  /* background-color: #ff4c68; */
+
+  /* background: rgb(242,242,40);
+background: linear-gradient(90deg, rgba(242,242,40,1) 0%, rgba(242,75,104,1) 15%, rgba(242,209,75,1) 100%); */
+
+background: rgb(233,70,123);
+background: linear-gradient(90deg, rgba(233,70,123,1) 0%, rgba(252,176,69,1) 50%, rgba(237,117,100,1) 100%);
+  line-height: 2.5;
+  padding: 9% 15%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #fff;
+  line-height: 2.5;
+  padding: 12% 15%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 7% 15%;
+}
+.footer-icon {
+  margin: 0.6% 0.6%;
+}
+.footer-icon:hover{
+  color: #ec5672;
+}
+#cta-font{
+    font-size: 3rem;
+    width: 70%;
+    color: #fff;
+    margin: auto;
+}
+#download-action{
+  margin: 5% 3% 5% 0;
+
+}
+#copy_right{
+  font-weight: 800;
+}
+.carousel-mid-font{
+  color:#ffffffe0
+}
+.pricing-heading{
+  margin: auto;
+  width: 50%;
+  
+}
+
+@media (max-width: 1028px) {
+  #title,{
+    text-align: center;
+  }
+
+  #iphone {
+    position: static;
+  transform: rotate(0deg);
+  
+  }
+ 
+}
